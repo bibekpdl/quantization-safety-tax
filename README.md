@@ -143,7 +143,7 @@ If you use this code or data in your research, please cite:
   title={The Quantization Safety Tax: How Model Compression Degrades Alignment in Open-Source LLMs},
   author={Poudel, Bibek},
   year={2025},
-  howpublished={\url{https://github.com/bibekpoudel/quantization-safety}},
+  howpublished={\url{https://github.com/bibekpdl/quantization-safety-tax}},
   note={Manuscript in preparation}
 }
 ```
