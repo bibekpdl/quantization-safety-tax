@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Capability benchmark questions (MMLU, GSM8K, commonsense subset)",
+    "total_questions": 30,
+    "note": "Sample subset for reproducibility. Full benchmark uses 100 questions."
+  },
+  "mmlu_subset": [
+    {
+      "id": 1,
+      "subject": "physics",
+      "question": "What is the SI unit of force?",
+      "choices": ["A) Watt", "B) Newton", "C) Joule", "D) Pascal"],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "subject": "physics",
+      "question": "What is the acceleration due to gravity on Earth (approximately)?",
+      "choices": ["A) 5 m/s²", "B) 9.8 m/s²", "C) 15 m/s²", "D) 20 m/s²"],
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "subject": "chemistry",
+      "question": "What is the chemical symbol for gold?",
+      "choices": ["A) Go", "B) Gd", "C) Au", "D) Ag"],
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "subject": "biology",
+      "question": "What organelle is known as the powerhouse of the cell?",
+      "choices": ["A) Nucleus", "B) Ribosome", "C) Mitochondria", "D) Golgi apparatus"],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "subject": "history",
+      "question": "In what year did World War II end?",
+      "choices": ["A) 1943", "B) 1944", "C) 1945", "D) 1946"],
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "subject": "geography",
+      "question": "What is the largest ocean on Earth?",
+      "choices": ["A) Atlantic Ocean", "B) Indian Ocean", "C) Arctic Ocean", "D) Pacific Ocean"],
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "subject": "computer_science",
+      "question": "What does CPU stand for?",
+      "choices": ["A) Central Processing Unit", "B) Computer Personal Unit", "C) Central Program Utility", "D) Core Processing Unit"],
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "subject": "mathematics",
+      "question": "What is the value of pi to two decimal places?",
+      "choices": ["A) 3.12", "B) 3.14", "C) 3.16", "D) 3.18"],
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "subject": "literature",
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "choices": ["A) Charles Dickens", "B) Jane Austen", "C) William Shakespeare", "D) Mark Twain"],
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "subject": "economics",
+      "question": "What does GDP stand for?",
+      "choices": ["A) Gross Domestic Product", "B) General Domestic Production", "C) Gross Demand Price", "D) General Development Plan"],
+      "answer": "A"
+    }
+  ],
+  "gsm8k_subset": [
+    {
+      "id": 11,
+      "question": "John has 5 apples. He buys 3 more apples. How many apples does John have now?",
+      "answer": "8"
+    },
+    {
+      "id": 12,
+      "question": "A store sells pencils for $2 each. How much do 7 pencils cost?",
+      "answer": "14"
+    },
+    {
+      "id": 13,
+      "question": "Sarah has 24 cookies. She wants to share them equally among 6 friends. How many cookies does each friend get?",
+      "answer": "4"
+    },
+    {
+      "id": 14,
+      "question": "A train travels at 60 miles per hour. How far will it travel in 3 hours?",
+      "answer": "180"
+    },
+    {
+      "id": 15,
+      "question": "Tom has $50. He spends $23 on a book. How much money does he have left?",
+      "answer": "27"
+    },
+    {
+      "id": 16,
+      "question": "A rectangle has a length of 8 cm and a width of 5 cm. What is its area?",
+      "answer": "40"
+    },
+    {
+      "id": 17,
+      "question": "Lisa reads 15 pages every day. How many pages will she read in a week?",
+      "answer": "105"
+    },
+    {
+      "id": 18,
+      "question": "A baker makes 48 cupcakes. He puts them in boxes of 12. How many boxes does he need?",
+      "answer": "4"
+    },
+    {
+      "id": 19,
+      "question": "Mike is 12 years old. His father is 3 times his age. How old is Mike's father?",
+      "answer": "36"
+    },
+    {
+      "id": 20,
+      "question": "A school has 450 students. If 30% are in the science club, how many students are in the science club?",
+      "answer": "135"
+    }
+  ],
+  "commonsense_subset": [
+    {
+      "id": 21,
+      "question": "What do you use an umbrella for?",
+      "choices": ["A) To dig holes", "B) To protect from rain", "C) To cook food", "D) To write letters"],
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "Where would you find a pilot?",
+      "choices": ["A) In a submarine", "B) In a cockpit", "C) In a kitchen", "D) In a library"],
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "What season comes after summer?",
+      "choices": ["A) Spring", "B) Winter", "C) Fall/Autumn", "D) Summer"],
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "What do plants need to perform photosynthesis?",
+      "choices": ["A) Darkness", "B) Sunlight", "C) Salt water", "D) Metal"],
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "How many legs does a spider have?",
+      "choices": ["A) 4", "B) 6", "C) 8", "D) 10"],
+      "answer": "C"
+    },
+    {
+      "id": 26,
+      "question": "What is the opposite of 'hot'?",
+      "choices": ["A) Warm", "B) Cold", "C) Wet", "D) Dry"],
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "What tool would you use to cut paper?",
+      "choices": ["A) Hammer", "B) Screwdriver", "C) Scissors", "D) Wrench"],
+      "answer": "C"
+    },
+    {
+      "id": 28,
+      "question": "What do fish use to breathe?",
+      "choices": ["A) Lungs", "B) Skin", "C) Gills", "D) Nose"],
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "question": "Where does the sun rise?",
+      "choices": ["A) North", "B) South", "C) East", "D) West"],
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "question": "What color do you get when you mix red and blue?",
+      "choices": ["A) Green", "B) Orange", "C) Purple", "D) Yellow"],
+      "answer": "C"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+# Model configurations for the quantization safety study
+
+models:
+  llama3.2:
+    base_name: "llama3.2:3b"
+    organization: "Meta"
+    parameters: "3B"
+    quantizations:
+      fp16: "llama3.2:3b-instruct-fp16"
+      q8_0: "llama3.2:3b-instruct-q8_0"
+      q4_K_M: "llama3.2:3b-instruct-q4_K_M"
+      q2_K: "llama3.2:3b-instruct-q2_K"
+
+  gemma2:
+    base_name: "gemma2:2b"
+    organization: "Google"
+    parameters: "2B"
+    quantizations:
+      fp16: "gemma2:2b-instruct-fp16"
+      q8_0: "gemma2:2b-instruct-q8_0"
+      q4_K_M: "gemma2:2b-instruct-q4_K_M"
+      q2_K: "gemma2:2b-instruct-q2_K"
+
+  gemma3:
+    base_name: "gemma3:4b"
+    organization: "Google"
+    parameters: "4B"
+    quantizations:
+      fp16: "gemma3:4b-it-fp16"
+      q8_0: "gemma3:4b-it-q8_0"
+      q4_K_M: "gemma3:4b-it-q4_K_M"
+      # Note: Q2_K not available for Gemma3 4B
+
+  qwen2.5:
+    base_name: "qwen2.5:3b"
+    organization: "Alibaba"
+    parameters: "3B"
+    quantizations:
+      fp16: "qwen2.5:3b-instruct-fp16"
+      q8_0: "qwen2.5:3b-instruct-q8_0"
+      q4_K_M: "qwen2.5:3b-instruct-q4_K_M"
+      q2_K: "qwen2.5:3b-instruct-q2_K"
+
+  phi3:
+    base_name: "phi3:3.8b"
+    organization: "Microsoft"
+    parameters: "3.8B"
+    quantizations:
+      fp16: "phi3:3.8b-mini-4k-instruct-fp16"
+      q8_0: "phi3:3.8b-mini-4k-instruct-q8_0"
+      q4_K_M: "phi3:3.8b-mini-4k-instruct-q4_K_M"
+      q2_K: "phi3:3.8b-mini-4k-instruct-q2_K"
+
+  granite3.1:
+    base_name: "granite3.1-dense:2b"
+    organization: "IBM"
+    parameters: "2B"
+    quantizations:
+      fp16: "granite3.1-dense:2b-instruct-fp16"
+      q8_0: "granite3.1-dense:2b-instruct-q8_0"
+      q4_K_M: "granite3.1-dense:2b-instruct-q4_K_M"
+      q2_K: "granite3.1-dense:2b-instruct-q2_K"
+
+quantization_levels:
+  fp16:
+    bits: 16
+    description: "Full precision (baseline)"
+  q8_0:
+    bits: 8
+    description: "8-bit quantization"
+  q4_K_M:
+    bits: 4
+    description: "4-bit quantization (K-means, medium)"
+  q2_K:
+    bits: 2
+    description: "2-bit quantization (most aggressive)"
+
+experiment_settings:
+  temperature: 0.7
+  max_tokens: 512
+  benchmark_temperature: 0.0
+  benchmark_max_tokens: 50
