@@ -165,6 +165,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Bibek Poudel - bibek@linux.com
+- **Bibek Poudel** - [bibek@linux.com](mailto:bibek@linux.com)  
+  ORCID: [0009-0001-5186-6803](https://orcid.org/0009-0001-5186-6803)
 
-ORCID: [0009-0001-5186-6803](https://orcid.org/0009-0001-5186-6803)
+- **Arun Chowdary Sanna** - [arun.sanna@ieee.org](mailto:arun.sanna@ieee.org)  
+  ORCID: [0009-0003-5131-2688](https://orcid.org/0009-0003-5131-2688)
