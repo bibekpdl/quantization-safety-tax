@@ -139,12 +139,12 @@ Researchers requiring the full dataset for replication can contact the authors.
 If you use this code or data in your research, please cite:
 
 ```bibtex
-@misc{poudel2025quantization,
-  title={The Quantization Safety Tax: How Model Compression Degrades Alignment in Open-Source LLMs},
-  author={Poudel, Bibek},
-  year={2025},
-  howpublished={\url{https://github.com/bibekpdl/quantization-safety-tax}},
-  note={Manuscript in preparation}
+@misc{poudel2026quantization,
+  title        = {The Quantization Safety Tax: How Model Compression Degrades Alignment in Open-Source LLMs},
+  author       = {Poudel, Bibek and Sanna, Arun Chowdary},
+  year         = {2026},
+  howpublished = {\url{https://github.com/bibekpdl/quantization-safety-tax}},
+  note         = {Manuscript in preparation}
 }
 ```
 
